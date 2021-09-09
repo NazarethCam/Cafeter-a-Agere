@@ -1,0 +1,29 @@
+.picture {
+	width: 29%;
+	box-sizing: border-box;
+	top: 0px;
+	left: 0px;
+	position: relative;
+	float: left;
+}
+
+.picture__img {
+	width: 100%;
+	height: 18em;
+	margin-bottom: 100px;
+	box-sizing: border-box;
+	object-fit: cover;
+	position: absolute;
+	z-index: 3;
+}
+
+.picture__img-coffee {
+	width: 5em;
+	height: 9em;
+	object-fit: cover;
+	display: inline;
+	position: absolute;
+	z-index: 4;
+	right:20em;
+	top: 0px;
+}

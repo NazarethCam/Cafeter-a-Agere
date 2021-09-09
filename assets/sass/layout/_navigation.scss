@@ -1,0 +1,56 @@
+nav{
+	width: 100%;
+    height: 7.4rem;
+    background: $white;
+	position: fixed;
+    top: 0;
+    z-index: 100;
+
+
+}
+.nav {
+	width: 90%;
+    height: 5rem;
+    align-items: center;
+    padding: 0 2.5rem;
+}
+
+
+.navegation__logo {
+	margin-left: 2.2rem;
+	display: inline-block;
+	object-fit: cover;
+}
+
+.navegation__img {
+	height: 100%;
+	width: 2.4rem;
+	display: inline-block;
+	position: relative;
+	top: 0.9rem;
+}
+
+.navegation__links {
+	width: 80%;
+	display: inline-block;
+}
+
+.navegation__link {
+	text-decoration: none;
+	margin-left: 2.2rem;
+	margin-bottom: 4.2rem;
+	font-family: $pt-mono;
+	font-size: $medium;
+	color: $spanish-gray;
+	bottom: 1.9rem;
+
+	&--hover:hover{
+	color: $black;
+	}
+}
+
+.navegation__btn{
+	position: relative;
+	left:24em;
+	float: left;
+}

@@ -1,0 +1,22 @@
+.coffee {
+	box-sizing: border-box;	
+	width: 30%;
+	position: relative;
+	float: left;
+}
+
+.coffee__h2 {
+	width: 40%;
+	font-size:$xxx-large;
+	font-weight: $light;
+	margin-top: 150px;
+	margin-left: 5rem;
+	margin-bottom: 1.25rem;
+}
+
+.coffee__p {
+	margin-top: 0;
+	font-size:$large;
+	font-weight: 100;
+	margin-left: 5rem;	
+}

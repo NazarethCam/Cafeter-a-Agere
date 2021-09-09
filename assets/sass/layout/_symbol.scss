@@ -1,0 +1,33 @@
+.symbol {
+	height: 7rem;
+	width: 7rem;
+	position: relative;
+	float: right;
+	margin-right: 110px;
+	margin-bottom: 86px;
+}
+
+.symbol__img {
+	width: 3.1rem;
+	display: inline;
+	position: absolute;
+	right:5rem;
+	bottom: 48px;
+	z-index: 5;
+}
+
+.symbol__orange {
+	background-color:$flame;
+	position: absolute;
+	right: 3.1rem;
+	bottom: 3.1rem;
+	z-index: 4;
+}
+
+.symbol__yellow {
+	background-color: $buff;
+	position: absolute;
+	right: 1.6rem;
+	bottom:1.6rem; 
+	z-index: 3;
+}

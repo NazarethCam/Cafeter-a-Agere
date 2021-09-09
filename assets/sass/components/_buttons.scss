@@ -1,0 +1,29 @@
+.navegation__btn-primary {
+	background-color: $white;
+	font-family: $pt-mono;
+	color: $spanish-gray;
+	font-size: $medium;
+	border: 1px solid  $quick-silver;
+	padding: 5px;
+	margin-right: 30px;
+	bottom: 1.9rem;
+	margin-right: 30px;
+	&--hover:hover{
+	color: $outer-space;
+	border: 1px solid $outer-space;
+	}
+}
+
+.navegation__btn-secondary {
+	background-color:$shiny-shamrock;
+	font-family: $pt-mono;
+	color: $white;
+	font-size: $medium;
+	border: none;
+	padding: 5px 20px;
+	bottom: 1.9rem;
+	&--hover:hover{
+	background-color: $turquoise-green!important;
+	color:  $outer-space;	
+	}
+}

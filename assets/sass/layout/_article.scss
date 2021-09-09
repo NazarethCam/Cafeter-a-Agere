@@ -1,0 +1,21 @@
+.article {
+	width: 33%;
+	box-sizing: border-box;
+	float: left;
+	padding-top: 2.5rem;
+}
+
+.article__title {
+	text-align: center;
+	font-size: $x-large;
+	font-weight: $light;
+	margin-bottom: 1.25rem;
+}
+
+.article__text{
+	font-size:$medium;
+	color: $outer-space;
+	margin-top: 0;
+	padding: 0 4em 0 4.5em;
+	line-height: 1.2;
+}

@@ -1,0 +1,30 @@
+.box__general {
+	box-sizing: border-box;
+	padding: 0  0 0 2% ;
+	width: 45rem;
+	float: left;
+	clear: left;
+	background: $white;
+	position: absolute;
+	left: 25rem;
+	bottom:0;
+}
+
+.box {
+	box-sizing: border-box;
+	float: left;
+	clear: right;
+}
+
+.box__h3 {
+	font-size: $x-large;
+	font-weight: $light;
+	margin-bottom: 5px;
+}
+
+.box__content {
+	margin-top: 0;
+	font-size:$medium;
+	color: $outer-space;
+	width:60%;
+}
